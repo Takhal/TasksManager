@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #4d3b15;
+    background-image: url("./img/tasks.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container{
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 90%;
+}
+
+#zoneForm{
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid #777;
+    overflow:hidden;
+    width: 95%;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(97, 87, 83, .9);
+    /*-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(180px) saturate(90%);*/
+    box-shadow: 13px 13px 7px #333;
+}
+
+/* @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .modal {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);  
+    }
+    .warning {
+        display: none;
+    }
+} */
+
+#zoneForm *{
+    margin: 3px;
+}
+
+#keyWord {
+    width: 99%;
+    height: 7rem;
+    resize: none;
+}
+
+#zoneData {
+    border: 1px solid #333;
+    overflow: hidden;
+    width: 95%;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgba(219, 219, 176, .7);
+    /*-webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(180px) saturate(90%);*/
+    box-shadow: 13px 13px 7px #333;
+}
+
+#zoneData div {
+    box-sizing: border-box;
+    border: .5px solid #000;
+    margin-top: 9px;
+    margin-left: 2.5%;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 5px;
+    width: 95%;
+    padding-left: 18px;
+    padding-top: 7px;
+}
+
+#zoneData div>div {
+    border: none; 
+    box-shadow: none;
+    margin: 3px;
+    padding: 3px;
+    color: #1c1c1c;
+    float: right;
+}
+
+#zoneData div>div button {
+    color: #1c1c1c;
+    float: right;
+    top: 0;
+    margin-left: 5px;
+}
+
+#clearAll, #orderButton{
+    float: top;
+    margin: 10px 3px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-left: 2.5%;
+}
